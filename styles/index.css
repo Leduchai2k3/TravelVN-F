@@ -167,3 +167,10 @@ a{
   color: gray;
   cursor: pointer;
 }
+.topsights-more{
+  width: 100px;
+  height: 40px;
+  background: #bbffe4;
+  margin: 0 auto;
+  display: block;
+}
