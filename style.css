@@ -35,7 +35,7 @@ a{
 }
 
 .container{
-  background-color: #F5F5F5;
+  background-color: #ffffff;
 }
 
 .header{
@@ -74,9 +74,9 @@ a{
   font-weight: 700;
   text-align: center;
 }
-.topsights{
+.topsights,.explore{
   margin-top: 50px;
-  padding: 0px 60px;
+  padding: 0px 10%;
   
 }
 .topsights_list{
@@ -90,7 +90,7 @@ a{
   position: relative;
 }
 .topsights_list-item-img{
-  width: 22vw;
+  width: 20vw;
   border-radius: 20px;
 }
 
@@ -103,6 +103,35 @@ a{
   font: 700 25px 'Jost', sans-serif;
 }
 
-.tophotels{
+
+.explore{ 
   background-color: #F0F6FF;
+  width: 100%;
+  /* height: 500px; */
+}
+.explore_list{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap:20px
+}
+.explore_item{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.explore_item-img{
+  width: 50%;
+  aspect-ratio: 5/2;
+  object-fit: cover;
+}
+.explore_item-content{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 20px;
+}
+.container1{
+  float: right;
 }
