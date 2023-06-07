@@ -93,7 +93,9 @@ a{
 .topsights_list-item-img{
   width: 19vw;
   border-radius: 20px;
+  aspect-ratio: 2/3;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .topsights_list-item-content{
