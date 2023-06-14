@@ -57,17 +57,14 @@ a{
 }
 .slider{
   position: relative;
+  display: flex;
 }
 .bannerWeb{
-  position: absolute;
-  right: 2%;
-  top: 50%;
-  transform: translateY(-50%);
-  border: 1px solid #000000;
+  height: 100%;
 }
 .slider_img{
   width: 100%;
-  height: 60vh;
+  height: 250px;
   object-fit: cover;
   
 }
